@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    font-family: Roboto;
+  }
+  
+  .avbar {
+    background-color: rgb(222, 232, 245);
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 0px 5px silver;
+  }
+  
+  .Toolbar {
+    display: flex;
+    min-height: 56px;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .Logo {
+    margin-right: 10px;
+  }
+  
+  .Title {
+    flex-grow: 1;
+  }
+  
+  .menuitem {
+    background-color:  rgb(248, 250, 255);
+    color: black;
+  }
+  .styledInputBase{
+    background-color: white;
+    color: rgb(248, 250, 255);
+  }
+  .search{
+    background-color: black;
+    color: black;
+  }
+  .searchIcon{
+    color: black;
+  
+  }
+
+  .navbar {
+    height: 3rem;
+  }
+  
